@@ -1,7 +1,7 @@
 # Generic public stack
 
-This Terraform stack will help you to build a generic Public facing pattern with a RDS instance or a REDSHIFT instance.
-All variables are in prd.tfvars , fell free to modify these variables to match your needs. Make sure you change the role into the main.tf file by the role you are using.
+This Terraform stack will help you to launch a public task with fargate.
+All variables are in SDX.tfvars , fell free to modify these variables to match your needs. Make sure you change the role into the main.tf file by the role you are using.
 
 
 ## Schema
