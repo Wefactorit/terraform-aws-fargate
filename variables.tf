@@ -46,12 +46,6 @@ variable "project_trigramme" {
   type        = string
 }
 
-variable "account_id" {
-  description = "The AWS account ID"
-  type        = string
-  default     = "arn:aws:iam::0010000000:role/OrganizationAccountAccessRole"
-}
-
 
 variable "region_trigram" {
   description = "the region trigram example ew3 for europe west Paris"

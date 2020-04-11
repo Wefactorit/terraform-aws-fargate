@@ -34,8 +34,7 @@ terraform plan   -var-file="sdx.tfvars"
 |------|-------------|------|---------|:-----:|
 | AppRole | The application role | `string` | n/a | yes |
 | ManagedBy | The operational team oin this project | `string` | n/a | yes |
-| account\_id | The AWS account ID | `string` | `"arn:aws:iam::589079071798:role/OrganizationAccountAccessRole"` | no |
-| alb\_name | The ALB name | `string` | `"bettercar-dev-ew3-pub-alb"` | no |
+| alb\_name | The ALB name | `string` | `"alb-name"` | no |
 | application | The application name | `string` | n/a | yes |
 | auto\_egress\_rules | List of egress rules to add automatically | `list(string)` | <pre>[<br>  "all-all"<br>]</pre> | no |
 | auto\_ingress\_rules | List of ingress rules to add automatically | `list(string)` | <pre>[<br>  "http-80-tcp"<br>]</pre> | no |
@@ -52,7 +51,7 @@ terraform plan   -var-file="sdx.tfvars"
 | name\_preffix | The prefix used for fargate | `string` | `"btv01"` | no |
 | owner | The project Owner | `string` | n/a | yes |
 | private\_subnets | The private sub net | `list` | <pre>[<br>  ""<br>]</pre> | no |
-| profile | The AWS API KEY to use | `string` | `"r-emobg-gbi-devops-sbx-ops-admin"` | no |
+| profile | The AWS API KEY to use | `string` | `"gbi-devops-sbx-ops-admin"` | no |
 | project\_name | The projectname | `string` | `""` | no |
 | project\_trigramme | The project trigram | `string` | `""` | no |
 | public\_subnets | The public CIDR list | `list` | <pre>[<br>  ""<br>]</pre> | no |
