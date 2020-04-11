@@ -1,4 +1,4 @@
-data "aws_caller_identity" "current" {}
+
 
 module "s3_inf" {
   source = "git::https://github.com/terraform-aws-modules/terraform-aws-s3-bucket.git?ref=v1.5.0"
