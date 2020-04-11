@@ -3,7 +3,7 @@
 
 variable "prefix" {
   default = "test"
-  type    = list
+  type    = string
 }
 
 
