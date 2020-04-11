@@ -1,0 +1,22 @@
+project_name                 = "example"
+project_trigramme            = "btc"
+region_trigram               = "ew3"
+region                       = "eu-west-3"
+container_image              = "nginx:latest"
+ecr_name                     = "btc_sdx"
+application                  = "gen"
+env                          = "sdx"
+container_port               = 8080
+container_memory_reservation = 2048
+container_memory_allowed     = 4096
+container_container_cpu      = 5
+owner                        = "Devopsteam"
+AppRole                      = "generic_app"
+ManagedBy                    = "Devopsteam"
+
+vpc_cidr         = "10.9.16.0/21"
+azs              = ["eu-west-3a", "eu-west-3b"]
+public_subnets   = ["10.9.16.0/24", "10.9.20.0/24"]
+private_subnets  = ["10.9.17.0/24", "10.9.21.0/24"]
+database_subnets = ["10.9.19.0/24", "10.9.23.0/24"]
+redshift_subnets = ["10.9.18.0/24", "10.9.22.0/24"]
