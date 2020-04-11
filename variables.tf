@@ -1,6 +1,11 @@
 ## Account ID
 ###Project main Configuration#####
 
+variable "prefix" {
+  default = "test"
+  type    = list
+}
+
 
 variable "vpc_cidr" {
   description = "The CIDR"
