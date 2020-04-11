@@ -49,7 +49,7 @@ variable "project_trigramme" {
 variable "account_id" {
   description = "The AWS account ID"
   type        = string
-  default     = "arn:aws:iam::0000000000:role/OrganizationAccountAccessRole"
+  default     = "arn:aws:iam::0010000000:role/OrganizationAccountAccessRole"
 }
 
 
