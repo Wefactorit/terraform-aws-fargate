@@ -5,9 +5,9 @@ jobs:
     branches:
       only:
         - master
-        docker:
+    docker:
         - image: hashicorp/terraform
-        steps:
+    steps:
         - checkout
         - run: terraform init
         - run: terraform validate
