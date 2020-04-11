@@ -49,7 +49,7 @@ variable "project_trigramme" {
 variable "account_id" {
   description = "The AWS account ID"
   type        = string
-  default     = "arn:aws:iam::589079071798:role/OrganizationAccountAccessRole"
+  default     = "arn:aws:iam::0000000000:role/OrganizationAccountAccessRole"
 }
 
 
@@ -147,7 +147,7 @@ variable "redshift_subnets" {
 
 variable "alb_name" {
   description = "The ALB name"
-  default     = "bettercar-dev-ew3-pub-alb"
+  default     = "alb-name"
   type        = string
 }
 
@@ -163,7 +163,7 @@ variable "name_preffix" {
 
 variable "profile" {
   description = "The AWS API KEY to use "
-  default     = "r-emobg-gbi-devops-sbx-ops-admin"
+  default     = "gbi-devops-sbx-ops-admin"
 }
 
 variable "region" {
