@@ -1,7 +1,7 @@
 # Generic public FARGATE stack
 
 This Terraform stack will help you to launch a public task with fargate.
-All variables are in SDX.tfvars , fell free to modify these variables to match your needs. Make sure you change the role into the main.tf file by the role you are using.
+All variables are in sdx.tfvars , fell free to modify these variables to match your needs. Make sure you change the role into the main.tf file by the role you are using.
 
 
 ## Schema
