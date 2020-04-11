@@ -2,12 +2,9 @@
 version: 2
 jobs:
   build:
-  branches:
-      only:
-        - master
-  docker:
-    - image: hashicorp/terraform
-  steps:
-    - checkout
-    - run: terraform init
-    - run: terraform validate
+    docker:
+      - image: hashicorp/terraform
+    steps:
+      - checkout
+      - run: terraform init
+      - run: terraform validate
